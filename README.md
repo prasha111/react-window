@@ -3,6 +3,9 @@
 ## Overview
 This project is a React application demonstrating efficient rendering of large lists using `react-window`. It optimizes performance by rendering only visible items in a scrollable container.
 
+## Live url
+https://react-window-pnnpqj8fg-prasha111s-projects.vercel.app
+
 ## Features
 - Virtualized list rendering for improved performance
 - Support for large datasets
@@ -29,8 +32,7 @@ This project is a React application demonstrating efficient rendering of large l
 ## Usage
 Modify `src/App.js` to customize the list data or change the layout as per your requirement.
 
-## Deployment
-This project is deployed on Vercel: [Live Demo](https://react-window-pnnpqj8fg-prasha111s-projects.vercel.app)
+
 
 To deploy manually:
 ```sh
