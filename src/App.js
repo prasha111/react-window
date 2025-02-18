@@ -27,7 +27,6 @@ function App() {
       width={200}
       itemData={data}
       >
- 
        {RowElement}
       </FixedSizeList>
     </div>
@@ -38,6 +37,7 @@ export default App;
 const RowElement = ({style, data, index}) =>{
   return(
     <div style={style} className='row'>
+      {data[index]?.id || "dccs"}
       {data[index]?.title || "dccs"}
     </div>
   )
